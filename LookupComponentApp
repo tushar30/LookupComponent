@@ -14,28 +14,28 @@
     <div class="c-container">
         <lightning:layout >
             <lightning:layoutItem padding="around-small">
-                <c:LookupSearchComponent objectName="User" fieldName="Name" Label="Owner Id" 
+                <c:LookupComponent objectName="User" fieldName="Name" Label="Owner Id" 
                              selectRecordId="{!v.selectRecordId1}" selectRecordName="{!v.selectRecordName1}" 
                              required="false" iconName="action:user"/>
                <p>Selected Record Id: {!v.selectRecordId1}</p> 
                <p>Selected Record Name: {!v.selectRecordName1}</p>
             </lightning:layoutItem>
             <lightning:layoutItem padding="around-small">
-                <c:LookupSearchComponent objectName="Account" fieldName="Name" Label="Account name" 
+                <c:LookupComponent objectName="Account" fieldName="Name" Label="Account name" 
                              selectRecordId="{!v.selectRecordId2}" selectRecordName="{!v.selectRecordName2}" 
                              required="false" iconName="action:new_account"/>
                 <p>Selected Record Id: {!v.selectRecordId2}</p> 
                <p>Selected Record Name: {!v.selectRecordName2}</p>
             </lightning:layoutItem>
             <lightning:layoutItem padding="around-small">
-                <c:LookupSearchComponent objectName="Contact" fieldName="Name" Label="Contact name" 
+                <c:LookupComponent objectName="Contact" fieldName="Name" Label="Contact name" 
                              selectRecordId="{!v.selectRecordId3}" selectRecordName="{!v.selectRecordName3}" 
                              required="false" iconName="action:new_contact"/>
                 <p>Selected Record Id: {!v.selectRecordId3}</p> 
                <p>Selected Record Name: {!v.selectRecordName3}</p>
             </lightning:layoutItem>
             <lightning:layoutItem padding="around-small">
-                <c:LookupSearchComponent objectName="Account" fieldName="Name" Label="Account name" 
+                <c:LookupComponent objectName="Account" fieldName="Name" Label="Account name" 
                              selectRecordId="{!v.selectRecordId4}" selectRecordName="{!v.selectRecordName4}" 
                              required="false" iconName="action:new_account"/>
                 <p>Selected Record Id: {!v.selectRecordId4}</p> 
